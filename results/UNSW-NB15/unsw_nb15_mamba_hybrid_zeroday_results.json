@@ -1,0 +1,24 @@
+{
+    "seed":  42,
+    "n_train":  112782,
+    "n_val":  24168,
+    "n_test":  24412,
+    "n_epochs_run":  25,
+    "best_val_macro_f1":  0.5451125747658444,
+    "anomaly_threshold":  0.3711317479610443,
+    "anomaly_threshold_percentile":  95,
+    "classification_8class":  {
+                                  "accuracy":  0.7883978814961933,
+                                  "weighted_f1":  0.785808610739211,
+                                  "macro_f1":  0.549330199324445,
+                                  "mcc":  0.6793839168298907
+                              },
+    "zeroday_auroc":  {
+                          "Worms":  0.9416999766700365,
+                          "Shellcode":  0.551369774239104
+                      },
+    "holdout_classes":  [
+                            "Worms",
+                            "Shellcode"
+                        ]
+}

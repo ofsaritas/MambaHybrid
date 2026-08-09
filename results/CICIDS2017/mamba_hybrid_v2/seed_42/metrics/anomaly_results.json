@@ -1,0 +1,117 @@
+{
+  "anomaly_auroc_all_attacks": 0.8513957751870803,
+  "anomaly_pr_auc_all_attacks": 0.7788561786963573,
+  "threshold_used": 0.011921371333301067,
+  "recon_err_benign_mean": 0.0043798405677080154,
+  "recon_err_attack_mean": 0.3251765966415405,
+  "zeroday_holdout": {
+    "DDoS": {
+      "auroc": 0.9481144526436558,
+      "pr_auc": 0.699918610666233,
+      "detected_above_threshold": 12308,
+      "total_samples": 19203,
+      "detection_rate": 0.6409415195542363,
+      "mean_recon_err": 0.2837182879447937
+    },
+    "DoS Hulk": {
+      "auroc": 0.9496815187177587,
+      "pr_auc": 0.9059494978731019,
+      "detected_above_threshold": 23423,
+      "total_samples": 25928,
+      "detection_rate": 0.9033863005245295,
+      "mean_recon_err": 0.5393959283828735
+    }
+  },
+  "per_class_stats": {
+    "BENIGN": {
+      "n": 314473,
+      "mean_recon_err": 0.0043798405677080154,
+      "median_recon_err": 0.0017882330575957894,
+      "frac_above_thr": 0.05029684583414156
+    },
+    "Bot": {
+      "n": 293,
+      "mean_recon_err": 0.014999518170952797,
+      "median_recon_err": 0.00210942467674613,
+      "frac_above_thr": 0.07167235494880546
+    },
+    "DoS GoldenEye": {
+      "n": 1543,
+      "mean_recon_err": 0.2642629146575928,
+      "median_recon_err": 0.059596117585897446,
+      "frac_above_thr": 0.8846403110823072
+    },
+    "DoS Slowhttptest": {
+      "n": 784,
+      "mean_recon_err": 0.3307347893714905,
+      "median_recon_err": 0.022502698004245758,
+      "frac_above_thr": 0.9948979591836735
+    },
+    "DoS slowloris": {
+      "n": 808,
+      "mean_recon_err": 0.37420743703842163,
+      "median_recon_err": 0.5176051259040833,
+      "frac_above_thr": 0.9603960396039604
+    },
+    "FTP-Patator": {
+      "n": 890,
+      "mean_recon_err": 0.03307316452264786,
+      "median_recon_err": 0.0473463237285614,
+      "frac_above_thr": 0.651685393258427
+    },
+    "Heartbleed": {
+      "n": 1,
+      "mean_recon_err": 1.7675241231918335,
+      "median_recon_err": 1.7675241231918335,
+      "frac_above_thr": 1.0
+    },
+    "Infiltration": {
+      "n": 5,
+      "mean_recon_err": 0.2790992856025696,
+      "median_recon_err": 0.2183745950460434,
+      "frac_above_thr": 1.0
+    },
+    "PortScan": {
+      "n": 13623,
+      "mean_recon_err": 0.02287968434393406,
+      "median_recon_err": 0.0017642375314608216,
+      "frac_above_thr": 0.28349115466490493
+    },
+    "SSH-Patator": {
+      "n": 483,
+      "mean_recon_err": 0.015596956014633179,
+      "median_recon_err": 0.01682359352707863,
+      "frac_above_thr": 0.8964803312629399
+    },
+    "Web Attack \ufffd Brute Force": {
+      "n": 220,
+      "mean_recon_err": 0.022624481469392776,
+      "median_recon_err": 0.0016406133072450757,
+      "frac_above_thr": 0.05454545454545454
+    },
+    "Web Attack \ufffd Sql Injection": {
+      "n": 3,
+      "mean_recon_err": 0.002376627642661333,
+      "median_recon_err": 0.002227792050689459,
+      "frac_above_thr": 0.0
+    },
+    "Web Attack \ufffd XSS": {
+      "n": 98,
+      "mean_recon_err": 0.08795026689767838,
+      "median_recon_err": 0.0016190276946872473,
+      "frac_above_thr": 0.04081632653061224
+    },
+    "DDoS [ZERODAY]": {
+      "n": 19203,
+      "mean_recon_err": 0.2837182879447937,
+      "median_recon_err": 0.09095951914787292,
+      "frac_above_thr": 0.6409415195542363
+    },
+    "DoS Hulk [ZERODAY]": {
+      "n": 25928,
+      "mean_recon_err": 0.5393959283828735,
+      "median_recon_err": 0.5857816934585571,
+      "frac_above_thr": 0.9033863005245295
+    }
+  }
+}

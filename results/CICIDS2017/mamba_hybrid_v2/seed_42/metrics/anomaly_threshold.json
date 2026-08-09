@@ -1,0 +1,6 @@
+{
+  "threshold": 0.011921371333301067,
+  "percentile": 95,
+  "benign_val_mse_mean": 0.004401084966957569,
+  "benign_val_mse_std": 0.02125372551381588
+}

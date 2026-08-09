@@ -1,0 +1,311 @@
+{
+  "CICIDS2017_v1": {
+    "42": {
+      "n_benign_test": 314473,
+      "fpr_sweep": {
+        "0.001": {
+          "threshold": 0.4991951286792755,
+          "actual_benign_fpr": 0.001001675819545716,
+          "per_class": {
+            "Bot": {
+              "detection_rate": 0.0,
+              "precision_at_1e-4_attack_rate": 0.0,
+              "n_test_samples": 293
+            },
+            "PortScan": {
+              "detection_rate": 0.0007340527049842178,
+              "precision_at_1e-4_attack_rate": 7.328442029497582e-05,
+              "n_test_samples": 13623
+            }
+          }
+        },
+        "0.005": {
+          "threshold": 0.1560356169939041,
+          "actual_benign_fpr": 0.005002019251255274,
+          "per_class": {
+            "Bot": {
+              "detection_rate": 0.020477815699658702,
+              "precision_at_1e-4_attack_rate": 0.00040926435864103083,
+              "n_test_samples": 293
+            },
+            "PortScan": {
+              "detection_rate": 0.0019085370329589664,
+              "precision_at_1e-4_attack_rate": 3.815769146870101e-05,
+              "n_test_samples": 13623
+            }
+          }
+        },
+        "0.010": {
+          "threshold": 0.09693688154220581,
+          "actual_benign_fpr": 0.010000858579273896,
+          "per_class": {
+            "Bot": {
+              "detection_rate": 0.027303754266211604,
+              "precision_at_1e-4_attack_rate": 0.0002729668751183108,
+              "n_test_samples": 293
+            },
+            "PortScan": {
+              "detection_rate": 0.0030830213609337152,
+              "precision_at_1e-4_attack_rate": 3.0829699383664296e-05,
+              "n_test_samples": 13623
+            }
+          }
+        },
+        "0.020": {
+          "threshold": 0.054816581308841705,
+          "actual_benign_fpr": 0.02000171715854779,
+          "per_class": {
+            "Bot": {
+              "detection_rate": 0.03754266211604096,
+              "precision_at_1e-4_attack_rate": 0.00018768073621386498,
+              "n_test_samples": 293
+            },
+            "PortScan": {
+              "detection_rate": 0.021140717903545474,
+              "precision_at_1e-4_attack_rate": 0.00010569391293019764,
+              "n_test_samples": 13623
+            }
+          }
+        },
+        "0.050": {
+          "threshold": 0.02652757242321968,
+          "actual_benign_fpr": 0.05000111297313283,
+          "per_class": {
+            "Bot": {
+              "detection_rate": 0.051194539249146756,
+              "precision_at_1e-4_attack_rate": 0.0001023865550469847,
+              "n_test_samples": 293
+            },
+            "PortScan": {
+              "detection_rate": 0.07120311238346913,
+              "precision_at_1e-4_attack_rate": 0.00014239701688292255,
+              "n_test_samples": 13623
+            }
+          }
+        },
+        "0.100": {
+          "threshold": 0.013506636954843998,
+          "actual_benign_fpr": 0.10000222594626566,
+          "per_class": {
+            "Bot": {
+              "detection_rate": 0.07167235494880546,
+              "precision_at_1e-4_attack_rate": 7.167279003190788e-05,
+              "n_test_samples": 293
+            },
+            "PortScan": {
+              "detection_rate": 0.17433751743375175,
+              "precision_at_1e-4_attack_rate": 0.00017432067897062438,
+              "n_test_samples": 13623
+            }
+          }
+        }
+      }
+    }
+  },
+  "CICIDS2017_v2": {
+    "42": {
+      "n_benign_test": 314473,
+      "fpr_sweep": {
+        "0.001": {
+          "threshold": 0.21678794920444489,
+          "actual_benign_fpr": 0.001001675819545716,
+          "per_class": {
+            "DDoS": {
+              "detection_rate": 0.3376555746497943,
+              "precision_at_1e-4_attack_rate": 0.032612975468840746,
+              "n_test_samples": 19203
+            },
+            "DoS Hulk": {
+              "detection_rate": 0.757906510336316,
+              "precision_at_1e-4_attack_rate": 0.07034808014950046,
+              "n_test_samples": 25928
+            }
+          }
+        },
+        "0.005": {
+          "threshold": 0.07732439786195755,
+          "actual_benign_fpr": 0.005002019251255274,
+          "per_class": {
+            "DDoS": {
+              "detection_rate": 0.5861584127480082,
+              "precision_at_1e-4_attack_rate": 0.011583849549867074,
+              "n_test_samples": 19203
+            },
+            "DoS Hulk": {
+              "detection_rate": 0.867132058006788,
+              "precision_at_1e-4_attack_rate": 0.017041911896462605,
+              "n_test_samples": 25928
+            }
+          }
+        },
+        "0.010": {
+          "threshold": 0.04138351231813431,
+          "actual_benign_fpr": 0.010000858579273896,
+          "per_class": {
+            "DDoS": {
+              "detection_rate": 0.6399000156225589,
+              "precision_at_1e-4_attack_rate": 0.0063584027118637945,
+              "n_test_samples": 19203
+            },
+            "DoS Hulk": {
+              "detection_rate": 0.8841406973156433,
+              "precision_at_1e-4_attack_rate": 0.00876404450594852,
+              "n_test_samples": 25928
+            }
+          }
+        },
+        "0.020": {
+          "threshold": 0.02355124242603779,
+          "actual_benign_fpr": 0.02000171715854779,
+          "per_class": {
+            "DDoS": {
+              "detection_rate": 0.640264541998646,
+              "precision_at_1e-4_attack_rate": 0.0031911519596550413,
+              "n_test_samples": 19203
+            },
+            "DoS Hulk": {
+              "detection_rate": 0.8995680345572354,
+              "precision_at_1e-4_attack_rate": 0.004477763272553142,
+              "n_test_samples": 25928
+            }
+          }
+        },
+        "0.050": {
+          "threshold": 0.011981694027781487,
+          "actual_benign_fpr": 0.05000111297313283,
+          "per_class": {
+            "DDoS": {
+              "detection_rate": 0.6409415195542363,
+              "precision_at_1e-4_attack_rate": 0.0012803413285479724,
+              "n_test_samples": 19203
+            },
+            "DoS Hulk": {
+              "detection_rate": 0.9033863005245295,
+              "precision_at_1e-4_attack_rate": 0.0018036540294152053,
+              "n_test_samples": 25928
+            }
+          }
+        },
+        "0.100": {
+          "threshold": 0.006359829567372799,
+          "actual_benign_fpr": 0.10000222594626566,
+          "per_class": {
+            "DDoS": {
+              "detection_rate": 0.734676873405197,
+              "precision_at_1e-4_attack_rate": 0.0007341945559579271,
+              "n_test_samples": 19203
+            },
+            "DoS Hulk": {
+              "detection_rate": 0.904389077445233,
+              "precision_at_1e-4_attack_rate": 0.0009036420850463137,
+              "n_test_samples": 25928
+            }
+          }
+        }
+      }
+    }
+  },
+  "UNSW-NB15": {
+    "single": {
+      "n_benign_test": 12859,
+      "fpr_sweep": {
+        "0.001": {
+          "threshold": 16.87621307373047,
+          "actual_benign_fpr": 0.0010109650828213702,
+          "per_class": {
+            "Worms": {
+              "detection_rate": 0.0,
+              "precision_at_1e-4_attack_rate": 0.0,
+              "n_test_samples": 25
+            },
+            "Shellcode": {
+              "detection_rate": 0.0045662100456621,
+              "precision_at_1e-4_attack_rate": 0.0004515096412178479,
+              "n_test_samples": 219
+            }
+          }
+        },
+        "0.005": {
+          "threshold": 2.0140697956085205,
+          "actual_benign_fpr": 0.005054825414106851,
+          "per_class": {
+            "Worms": {
+              "detection_rate": 0.0,
+              "precision_at_1e-4_attack_rate": 0.0,
+              "n_test_samples": 25
+            },
+            "Shellcode": {
+              "detection_rate": 0.045662100456621,
+              "precision_at_1e-4_attack_rate": 0.0009026117445307635,
+              "n_test_samples": 219
+            }
+          }
+        },
+        "0.010": {
+          "threshold": 0.9803233742713928,
+          "actual_benign_fpr": 0.010031884283381289,
+          "per_class": {
+            "Worms": {
+              "detection_rate": 0.2,
+              "precision_at_1e-4_attack_rate": 0.001989875296608872,
+              "n_test_samples": 25
+            },
+            "Shellcode": {
+              "detection_rate": 0.0593607305936073,
+              "precision_at_1e-4_attack_rate": 0.0005914298287986359,
+              "n_test_samples": 219
+            }
+          }
+        },
+        "0.020": {
+          "threshold": 0.6864758729934692,
+          "actual_benign_fpr": 0.020063768566762577,
+          "per_class": {
+            "Worms": {
+              "detection_rate": 0.2,
+              "precision_at_1e-4_attack_rate": 0.0009959285350990266,
+              "n_test_samples": 25
+            },
+            "Shellcode": {
+              "detection_rate": 0.0730593607305936,
+              "precision_at_1e-4_attack_rate": 0.0003640396269123224,
+              "n_test_samples": 219
+            }
+          }
+        },
+        "0.050": {
+          "threshold": 0.37831905484199524,
+          "actual_benign_fpr": 0.05000388832724162,
+          "per_class": {
+            "Worms": {
+              "detection_rate": 0.48,
+              "precision_at_1e-4_attack_rate": 0.0009591005950074671,
+              "n_test_samples": 25
+            },
+            "Shellcode": {
+              "detection_rate": 0.136986301369863,
+              "precision_at_1e-4_attack_rate": 0.00027390365259775826,
+              "n_test_samples": 219
+            }
+          }
+        },
+        "0.100": {
+          "threshold": 0.22972410917282104,
+          "actual_benign_fpr": 0.10000777665448324,
+          "per_class": {
+            "Worms": {
+              "detection_rate": 0.88,
+              "precision_at_1e-4_attack_rate": 0.0008792458191892067,
+              "n_test_samples": 25
+            },
+            "Shellcode": {
+              "detection_rate": 0.228310502283105,
+              "precision_at_1e-4_attack_rate": 0.00022826346419756491,
+              "n_test_samples": 219
+            }
+          }
+        }
+      }
+    }
+  }
+}

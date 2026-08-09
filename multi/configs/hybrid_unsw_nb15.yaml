@@ -1,0 +1,60 @@
+dataset:
+  name: UNSW-NB15
+  raw_dir: data/raw/UNSW-NB15
+  processed_dir: data/processed/UNSW-NB15
+  label_column: attack_cat
+  task: multiclass
+  target_binary: false
+  drop_columns: [id, label]
+  max_rows: null
+
+split:
+  method: stratified
+  train_size: 0.70
+  val_size: 0.15
+  test_size: 0.15
+  random_state: 42
+
+preprocess:
+  remove_duplicates_before_split: true
+  missing_strategy: median
+  categorical_strategy: most_frequent
+  scaler: standard
+  quantile_clip: true
+  clip_quantiles: [0.001, 0.999]
+  feature_selection:
+    enabled: false
+    k_best: 64
+
+training:
+  epochs: 50
+  batch_size: 512
+  lr: 0.001
+  weight_decay: 0.0001
+  patience: 10
+  gradient_clip_norm: 1.0
+  amp: true
+  num_workers: 0
+  focal_loss: true
+  focal_gamma: 2.0
+  class_weights: true
+  noise_aug_std: 0.05
+
+model:
+  d_model: 128
+  depth: 4
+  dropout: 0.1
+  expansion: 2
+  d_state: 16
+  d_conv: 4
+
+hybrid:
+  benign_label: Normal
+  ae_lambda: 0.1
+  warmup_epochs: 5
+  decoder_depth: 2
+  anomaly_threshold_percentile: 95
+  zeroday_holdout_classes: [Worms, Shellcode]
+
+outputs:
+  root: outputs
